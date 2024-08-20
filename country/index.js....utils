@@ -1,0 +1,5 @@
+const getFirstNames = list {
+    return list.map(eachperson => eachperson.firstName)
+}
+
+module.exports = getFirstNames
