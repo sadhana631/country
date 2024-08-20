@@ -1,4 +1,4 @@
-const getFirstNames = list {
+const getFirstNames = list => {
     return list.map(eachperson => eachperson.firstName)
 }
 
