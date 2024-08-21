@@ -1,5 +1,5 @@
-const getFirstNames = (list) => {
-  return list.map((eachPerson) => eachPerson.firstName);
-};
+const getFirstNames = list => {
+  return list.map(eachPerson => eachPerson.firstName)
+}
 
-module.exports = getFirstNames;
+module.export = getFirstNames
